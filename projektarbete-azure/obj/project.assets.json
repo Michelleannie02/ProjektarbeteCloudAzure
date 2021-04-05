@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\T430\\.nuget\\packages\\": {}
+    "C:\\Users\\HAABEEEAAEEBEEEEE\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\workspace\\ProjektarbeteCloudAzure\\projektarbete-azure\\projektarbete-azure.csproj",
+      "projectUniqueName": "C:\\Workspace\\Grundläggande_Frontendutveckling\\Inlämningsuppgifter\\ProjektarbeteCloudAzure\\projektarbete-azure\\projektarbete-azure.csproj",
       "projectName": "projektarbete-azure",
-      "projectPath": "C:\\workspace\\ProjektarbeteCloudAzure\\projektarbete-azure\\projektarbete-azure.csproj",
-      "packagesPath": "C:\\Users\\T430\\.nuget\\packages\\",
-      "outputPath": "C:\\workspace\\ProjektarbeteCloudAzure\\projektarbete-azure\\obj\\",
+      "projectPath": "C:\\Workspace\\Grundläggande_Frontendutveckling\\Inlämningsuppgifter\\ProjektarbeteCloudAzure\\projektarbete-azure\\projektarbete-azure.csproj",
+      "packagesPath": "C:\\Users\\HAABEEEAAEEBEEEEE\\.nuget\\packages\\",
+      "outputPath": "C:\\Workspace\\Grundläggande_Frontendutveckling\\Inlämningsuppgifter\\ProjektarbeteCloudAzure\\projektarbete-azure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\T430\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HAABEEEAAEEBEEEEE\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
