@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\workspace\\projektarbete-azure\\projektarbete-azure\\projektarbete-azure.csproj",
+      "projectUniqueName": "C:\\workspace\\ProjektarbeteCloudAzure\\projektarbete-azure\\projektarbete-azure.csproj",
       "projectName": "projektarbete-azure",
-      "projectPath": "C:\\workspace\\projektarbete-azure\\projektarbete-azure\\projektarbete-azure.csproj",
+      "projectPath": "C:\\workspace\\ProjektarbeteCloudAzure\\projektarbete-azure\\projektarbete-azure.csproj",
       "packagesPath": "C:\\Users\\T430\\.nuget\\packages\\",
-      "outputPath": "C:\\workspace\\projektarbete-azure\\projektarbete-azure\\obj\\",
+      "outputPath": "C:\\workspace\\ProjektarbeteCloudAzure\\projektarbete-azure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\T430\\AppData\\Roaming\\NuGet\\NuGet.Config",
