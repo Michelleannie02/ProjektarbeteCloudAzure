@@ -8,16 +8,11 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\HAABEEEAAEEBEEEEE\\.nuget\\packages\\": {}
-=======
-    "C:\\Users\\retg9\\.nuget\\packages\\": {}
->>>>>>> 9150138b29dbe62a900410e7f5161f23f010e6b8
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "C:\\Workspace\\Grundläggande_Frontendutveckling\\Inlämningsuppgifter\\ProjektarbeteCloudAzure\\projektarbete-azure\\projektarbete-azure.csproj",
       "projectName": "projektarbete-azure",
       "projectPath": "C:\\Workspace\\Grundläggande_Frontendutveckling\\Inlämningsuppgifter\\ProjektarbeteCloudAzure\\projektarbete-azure\\projektarbete-azure.csproj",
@@ -26,16 +21,6 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HAABEEEAAEEBEEEEE\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-      "projectUniqueName": "C:\\WorkspaceGit\\AzureProjectArbete\\ProjektarbeteCloudAzure\\projektarbete-azure\\projektarbete-azure.csproj",
-      "projectName": "projektarbete-azure",
-      "projectPath": "C:\\WorkspaceGit\\AzureProjectArbete\\ProjektarbeteCloudAzure\\projektarbete-azure\\projektarbete-azure.csproj",
-      "packagesPath": "C:\\Users\\retg9\\.nuget\\packages\\",
-      "outputPath": "C:\\WorkspaceGit\\AzureProjectArbete\\ProjektarbeteCloudAzure\\projektarbete-azure\\obj\\",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "C:\\Users\\retg9\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 9150138b29dbe62a900410e7f5161f23f010e6b8
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -47,6 +32,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -58,6 +44,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -76,8 +63,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Workspace\\Grundläggande_Frontendutveckling\\Inlämningsuppgifter\\ProjektarbeteCloudAzure\\projektarbete-azure\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

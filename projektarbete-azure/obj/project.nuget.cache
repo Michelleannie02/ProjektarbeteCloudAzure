@@ -1,14 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "OuMnTvDK6aM0+YgQpmuA10PY9RMTQXgE8rpZmwc7k5Q5vr3/i4LvIIrJWQpEHGqm7Nt+DanB2FTXSzYPyq3EAA==",
   "success": true,
   "projectFilePath": "C:\\Workspace\\Grundläggande_Frontendutveckling\\Inlämningsuppgifter\\ProjektarbeteCloudAzure\\projektarbete-azure\\projektarbete-azure.csproj",
-=======
-  "dgSpecHash": "jag1TNaK0Ly409iiWgaa80CdUJGDzrV9k3OpmidsqupjNd3KvZfgMiD1/M8oy1UwWSFU5P1HjRo4ptg7hhKY7Q==",
-  "success": true,
-  "projectFilePath": "C:\\WorkspaceGit\\AzureProjectArbete\\ProjektarbeteCloudAzure\\projektarbete-azure\\projektarbete-azure.csproj",
->>>>>>> 9150138b29dbe62a900410e7f5161f23f010e6b8
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Workspace\\Grundläggande_Frontendutveckling\\Inlämningsuppgifter\\ProjektarbeteCloudAzure\\projektarbete-azure\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
