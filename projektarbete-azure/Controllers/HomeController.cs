@@ -33,6 +33,16 @@ namespace projektarbete_azure.Controllers
             return View();
         }
 
+        public IActionResult Richard()
+        {
+            return View();
+        }
+
+        public IActionResult Ludvig()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
