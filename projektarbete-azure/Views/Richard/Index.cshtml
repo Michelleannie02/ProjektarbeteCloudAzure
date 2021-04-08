@@ -3,27 +3,34 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Richard's awesome page!</h1>
+<h1 class="text-center">Richard's awesome page!</h1>
 
-<table class="table table-dark table-striped">
+<table class="table table-dark table-hover">
     <thead>
         <tr>
             <th>
-                The cat facts!!
+                <h3>Here is some random catfacts!</h3>
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model.CatFacts) {
-                <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.text)
-                    </td>
-                </tr>
+        @foreach (var item in Model.CatFacts)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.text)
+                </td>
+            </tr>
         }
     </tbody>
-    <h1>A cool cat:</h1>
-    <h1>@Model.CatUrl</h1>
 </table>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hY7m5jjJ9mM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<hr class="bg-light" />
+<div class="text-center">
+    <h3>A awesome cat video!</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/eX2qFMC8cFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<hr class="bg-light" />
+<div class="text-center">
+    <iframe src="https://open.spotify.com/embed/playlist/60PYY0RXZ30UrqisDihsTR" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
