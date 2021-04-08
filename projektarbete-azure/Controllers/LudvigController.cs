@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace projektarbete_azure.Controllers
 {
-    public class SalwaController : Controller
+    public class LudvigController : Controller
     {
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
-
             return View();
         }
     }
