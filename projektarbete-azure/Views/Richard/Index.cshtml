@@ -3,34 +3,27 @@
     ViewData["Title"] = "Index";
 }
 
-<h1 class="text-center">Richard's awesome page!</h1>
+@section css {
+    <link href="@Url.Content("~/css/richard.css")" rel="stylesheet" />
+}
 
-<table class="table table-dark table-hover">
-    <thead>
-        <tr>
-            <th>
-                <h3>Here is some random catfacts!</h3>
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model.CatFacts)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.text)
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
-<hr class="bg-light" />
-<div class="text-center">
-    <h3>A awesome cat video!</h3>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/eX2qFMC8cFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="container">
+    <span class="text1">Welcome to</span>
+    <span class="text2">RICHARD'S AWESOME VIEW</span>
+    <div class="buttons">
+        <div class="buttonAndIconContainer">
+            <a class="button-container the-button" href="https://github.com/Retg94"><button class="theButton">Github</button></a>
+            <img class="the-icon" src="~/images/GitHub-Mark-Light-120px-plus.png" alt="Github icon" />
+        </div>
+        <div class="buttonAndIconContainer">
+            <a class="button-container the-button" href="https://www.linkedin.com/in/richard-gustavsson-831b54176/"><button class="theButton">LinkedIn</button></a>
+            <img class="the-icon" src="~/images/linkedin.png" alt="LinkedIn icon" />
+        </div>
+        <div class="buttonAndIconContainer">
+            <a class="button-container the-button" href="https://github.com/Retg94"><button class="theButton">Test</button></a>
+            <img class="the-icon" src="~/images/GitHub-Mark-Light-120px-plus.png" alt="Github icon" />
+        </div>
+    </div>
 </div>
-<hr class="bg-light" />
-<div class="text-center">
-    <iframe src="https://open.spotify.com/embed/playlist/60PYY0RXZ30UrqisDihsTR" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-</div>
+
+<!-- <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
