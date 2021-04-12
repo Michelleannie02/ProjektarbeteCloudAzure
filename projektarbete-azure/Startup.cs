@@ -32,6 +32,7 @@ namespace projektarbete_azure
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseBrowserLink();
             }
             else
             {
